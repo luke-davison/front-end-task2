@@ -10,4 +10,4 @@ yarn start
 Tha app contains one Form component only. The target folder is src/components.
 ###Task
 It is a solution review task. The code is not optimizes, and has bugs.
-Could please fix problem/problems and give as more advice of the code improving as you can, including (html, css, js, React).
+Could please fix problem/problems and give as more advice of the code improving as you can, including (html, css, js, ts, and React).

@@ -12,9 +12,10 @@ export class Form extends React.Component {
   }
 
   render() {
+    var title = "New Form";
     return (
       <div>
-        <div>New Form</div>
+        <div>{title}</div>
         <form className="form clearfix">
           <input
             placeholder="First name"

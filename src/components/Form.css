@@ -1,16 +1,24 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container > * {
+  margin-bottom: 20px;
+}
+
+.form-container .form {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -12px 0 20px -12px;
+}
+
 .form-input {
+  flex-grow: 1;
+  margin: 12px 0 0 12px;
   width: 200px;
 }
 
-.form-input:first-child {
-  float: left;
-}
-
 .form-input:last-child {
-  float: right;
   margin-left: 5px;
-}
-
-.form-btn {
-  width: 100%;
 }
